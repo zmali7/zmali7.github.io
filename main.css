@@ -4,46 +4,29 @@
 		url("css/fonts/Helvetica_Neue/helveticaneue-light-webfont.woff") format("woff");
 	}
 body{
-	background-color: #bcffff;
-
+	background-color: #f5e2a8;
+    color: black;
 
 /*	text-align: center;*/
 	font-family: "Helvetica_Neue", serif;
 	font-weight: normal;
 }
-h1{	
-	text-align: center;
-	font-size: 54px;
+.main-container{
+    background-color: #f5e2a8;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    padding: 25px;
+}
+.introduction{
+    background-color: #f1f3f2;
+    text-align: center;
+	font-size: 30px;
 	font-style: bold;
 }
 .about-container{
-	background-color: white;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    background-color:#f1f3f2;
 }
-.portfolio-container{
-	background-color: white;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-h2{
-	margin: 20px auto;
-}
-#message{
-	text-align: center;
-	font-size: 32px;
-}
-#about{
-	margin: 0 auto;
-	/*text-align: center;*/
-	font-size:14px;
-}
-
-img{
-	/*text-align: center;*/
-	max-height: 200px;
-	width: auto;
-	margin: auto;
+.poetry{
+    background-color: #f1f3f2;
 }
