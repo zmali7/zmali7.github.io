@@ -1,0 +1,64 @@
+@font-face{
+	font-family: "Helvetica_Neue";
+	src: 
+		url(fonts/Helvetica_Neue/helveticaneue-light-webfont.woff") format("woff");
+	}
+body {
+    font-family: "Helvetica";
+    margin: 0px
+}
+#container {
+    width: 100%;
+    margin: 0px;
+    height: 100vh;
+    background-color: lightcyan;
+    margin: auto;
+}
+a{
+    display: block;
+    margin: 15%;
+    border-style: solid;
+    border-width: 6px;
+    border-color:#cfe3e8;
+    
+}
+#introtext{
+    font-size: 40px;
+}
+#name{
+    font-size: 70px;       
+}
+#greeting{
+    font-size: 40px;
+    margin-left: 10%;
+}
+#first_text{
+    text-indent: 10%;
+    padding-top: 5%;   
+}
+#first{
+    width: 67%;
+    float: left;
+    height: 100%;
+    background-color: #cfe3e8;
+}
+#second {
+    width: 33%;
+    float: right;
+    height: 100%;
+    background-color: white;
+    font-size: 33px;
+    text-align: center;
+    text-indent: -10%;
+}
+#second-text {
+    padding-top: 15%;
+}
+#myimage {
+    height: 40%;
+    margin-left: 10%;
+}
+
+#clear {
+    clear: both;
+}
