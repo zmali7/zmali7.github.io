@@ -15,48 +15,51 @@ body {
     margin: auto;
 }
 a{
+    font-size: 24px;
     display: block;
-    margin: 15%;
+    margin: 50px;
+    padding: 30px 0px ;
     border-style: solid;
-    border-width: 6px;
+    border-width: 1px;
+    border-radius: 700px;
     border-color:#cfe3e8;
+    text-align: center;
     
 }
 #introtext{
     font-size: 40px;
 }
 #name{
+    font-weight: 700;
     font-size: 70px;       
 }
 #greeting{
     font-size: 40px;
-    margin-left: 10%;
 }
 #first_text{
-    text-indent: 10%;
-    padding-top: 5%;   
+    color: white;
+    padding: 70px 100px;
 }
 #first{
-    width: 67%;
+    width: calc(100% - 480px);
     float: left;
     height: 100%;
-    background-color: #cfe3e8;
+    background-image: linear-gradient(-30deg,#444c96,#3c91f3);
+    
 }
 #second {
-    width: 33%;
+    width: 480px;
     float: right;
     height: 100%;
     background-color: white;
-    font-size: 33px;
     text-align: center;
-    text-indent: -10%;
+    overflow: scroll;
 }
 #second-text {
-    padding-top: 15%;
 }
 #myimage {
-    height: 40%;
-    margin-left: 10%;
+    width: 100%;
+    max-width: 400px;
 }
 
 #clear {
